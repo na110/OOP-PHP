@@ -43,6 +43,11 @@ class Vehicle
     {
         return $this->year;
     }
+    public function print_info()
+    {
+        echo "Car model: " . $this->model_get() . "\n";
+        echo "Car year: " . $this->year_get() . "\n";
+    }
 }
 
 class Car extends Vehicle
@@ -65,10 +70,10 @@ class Car extends Vehicle
         return $this->color;
     }
 
+    // Polymorphism (Overriding)
     public function print_info()
     {
-        echo "Car model: " . $this->model_get() . "\n";
-        echo "Car year: " . $this->year_get() . "\n";
+        parent::print_info();
         echo "Car color: " . $this->color_get();
     }
 }
