@@ -1,0 +1,9 @@
+-> OOP -> 
+	It's a programming paradigm that helps us model and simulate real-world entities by dividing a program into objects. Each object 	represents a real-world entity and is defined using classes.
+
+-> Class -> 
+	A class is a blueprint or template that defines the attributes (data) and methods (functions) for an entity. It describes what an 	object of that type will have and can do.
+
+Explanation:
+-> Object -> 
+	An object is an instance of a class. It has the attributes and methods defined by its class and represents a specific, real-world entity.
